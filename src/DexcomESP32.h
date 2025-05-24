@@ -1,0 +1,6 @@
+#ifndef DEXCOM_ESP32_LIBRARY_H
+#define DEXCOM_ESP32_LIBRARY_H
+
+void hello();
+
+#endif //DEXCOM_ESP32_LIBRARY_H
