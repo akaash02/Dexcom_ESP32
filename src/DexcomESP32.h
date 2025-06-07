@@ -6,7 +6,8 @@ public:
     DexcomESP32(const char* ssid, const char* password, const char* clientId, const char* clientSecret);
 
     // WiFi setup
-    void connectWiFi();
+    void connectWiFi(char* ssid, char* password);
+    void monitorWiFi();               // Check WiFi connection status
 
     // OAuth2 Authentication
     void startAuthFlow();              // Print URL for manual code entry
